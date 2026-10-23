@@ -37,13 +37,23 @@ Send the pictures of a captcha, get back the answer: which tiles to click, which
 + BASE = "https://api.solvecha.com"
 ```
 
-Same paths, fields, answers and error codes. See the [migration guide](https://solvecha.com/docs/migrate-from-nopecha).
+Same paths, fields, answers and error codes. See the [migration guide](https://solvecha.com/docs/migrate-from-nopecha) and the tested examples for the `nopecha` and `capsolver` packages: [nopecha-to-solvecha](https://github.com/Solvecha/nopecha-to-solvecha).
 
 ### Built for AI agents
 
 - **MCP server** at `https://api.solvecha.com/mcp` for Claude, Cursor, OpenClaw and Hermes Agent
 - **Agent skills** and **Python tools** for LangChain, CrewAI, LlamaIndex, OpenAI Agents and Browser Use: [solvecha-skills](https://github.com/Solvecha/solvecha-skills)
-- **Browser extension** for Chrome, Playwright, Puppeteer and Selenium: [download](https://solvecha.com/extension)
+- **Browser extension** for Chrome, Playwright, Puppeteer and Selenium: [download](https://solvecha.com/extension), with a runnable [Playwright example](https://github.com/Solvecha/solvecha-playwright-example)
+- **Install the skill:** `npx skills add Solvecha/solvecha-skills`, or for Hermes Agent `hermes skills tap add Solvecha/solvecha-skills` and `hermes skills install solvecha`
+
+### Repositories
+
+| Repository | What |
+|---|---|
+| [solvecha-skills](https://github.com/Solvecha/solvecha-skills) | Agent skill, MCP setup and Python tools for AI frameworks |
+| [solvecha-extension](https://github.com/Solvecha/solvecha-extension) | Browser extension builds (Chrome, Chromium) |
+| [solvecha-playwright-example](https://github.com/Solvecha/solvecha-playwright-example) | Playwright (Node.js, Python), Puppeteer and Selenium examples |
+| [nopecha-to-solvecha](https://github.com/Solvecha/nopecha-to-solvecha) | Switch from NopeCHA or CapSolver packages by changing one setting |
 
 ### Pricing
 
