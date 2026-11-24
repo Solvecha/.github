@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://solvecha.com"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="72" height="72" alt="Solvecha logo"></a>
+  <a href="https://solvecha.com/?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="72" height="72" alt="Solvecha logo"></a>
 </p>
 
 <h1 align="center">Solvecha</h1>
@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://solvecha.com">Website</a> ·
-  <a href="https://solvecha.com/docs">Docs</a> ·
-  <a href="https://solvecha.com/pricing">Pricing</a> ·
-  <a href="https://solvecha.com/ai-agents">AI agents</a> ·
+  <a href="https://solvecha.com/?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org">Website</a> ·
+  <a href="https://solvecha.com/docs?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org">Docs</a> ·
+  <a href="https://solvecha.com/pricing?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org">Pricing</a> ·
+  <a href="https://solvecha.com/ai-agents?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org">AI agents</a> ·
   <a href="https://solvecha.com/llms.txt">llms.txt</a>
 </p>
 
@@ -28,7 +28,7 @@ Send the pictures of a captcha, get back the answer: which tiles to click, which
 | **reCAPTCHA v2 image grids** | 3x3, 4x4 and dynamic 1x1 tiles |
 | **Text captchas** | distorted letters and digits |
 | **GeeTest slider** and **FunCAPTCHA** | positions and tile picks |
-| **Accuracy** | 99.7 % of reCAPTCHAs solved within 3 tries ([how we measured](https://solvecha.com/compare)) |
+| **Accuracy** | 99.7 % of reCAPTCHAs solved within 3 tries ([how we measured](https://solvecha.com/compare?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org)) |
 
 ### Switch from NopeCHA in one line
 
@@ -37,13 +37,13 @@ Send the pictures of a captcha, get back the answer: which tiles to click, which
 + BASE = "https://api.solvecha.com"
 ```
 
-Same paths, fields, answers and error codes. See the [migration guide](https://solvecha.com/docs/migrate-from-nopecha) and the tested examples for the `nopecha` and `capsolver` packages: [nopecha-to-solvecha](https://github.com/Solvecha/nopecha-to-solvecha).
+Same paths, fields, answers and error codes. See the [migration guide](https://solvecha.com/docs/migrate-from-nopecha?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org) and the tested examples for the `nopecha` and `capsolver` packages: [nopecha-to-solvecha](https://github.com/Solvecha/nopecha-to-solvecha).
 
 ### Built for AI agents
 
 - **MCP server** at `https://api.solvecha.com/mcp` for Claude, Cursor, OpenClaw and Hermes Agent
 - **Agent skills** and **Python tools** for LangChain, CrewAI, LlamaIndex, OpenAI Agents and Browser Use: [solvecha-skills](https://github.com/Solvecha/solvecha-skills)
-- **Browser extension** for Chrome, Playwright, Puppeteer and Selenium: [download](https://solvecha.com/extension), with a runnable [Playwright example](https://github.com/Solvecha/solvecha-playwright-example)
+- **Browser extension** for Chrome, Playwright, Puppeteer and Selenium: [download](https://solvecha.com/extension?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org), with a runnable [Playwright example](https://github.com/Solvecha/solvecha-playwright-example)
 - **Install the skill:** `npx skills add Solvecha/solvecha-skills`, or for Hermes Agent `hermes skills tap add Solvecha/solvecha-skills` and `hermes skills install solvecha`
 
 ### Repositories
