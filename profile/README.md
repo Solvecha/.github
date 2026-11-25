@@ -42,6 +42,8 @@ Same paths, fields, answers and error codes. See the [migration guide](https://s
 ### Built for AI agents
 
 - **MCP server** at `https://api.solvecha.com/mcp` for Claude, Cursor, OpenClaw and Hermes Agent
+
+  [![Solvecha MCP connector](https://glama.ai/mcp/connectors/com.solvecha/solvecha/badges/score.svg)](https://glama.ai/mcp/connectors/com.solvecha/solvecha)
 - **Agent skills** and **Python tools** for LangChain, CrewAI, LlamaIndex, OpenAI Agents and Browser Use: [solvecha-skills](https://github.com/Solvecha/solvecha-skills)
 - **Browser extension** for Chrome, Playwright, Puppeteer and Selenium: [download](https://solvecha.com/extension?utm_source=github&utm_medium=profile&utm_campaign=solvecha-org), with a runnable [Playwright example](https://github.com/Solvecha/solvecha-playwright-example)
 - **Install the skill:** `npx skills add Solvecha/solvecha-skills`, or for Hermes Agent `hermes skills tap add Solvecha/solvecha-skills` and `hermes skills install solvecha`
